@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens Flexivéis</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Imagens Flexivéis</h1>
+    <p>Esta vendos essa imagem? Experimente mudar o tamanho do layout da página para ver o que acontece.</p>
+    <picture>
+        <source media="(max-width: 700px)" srcset="imagens/paisagem-p.png" type="image/png">
+        <source media="(max-width: 900px)" srcset="imagens/paisagem-m.png" type="image/png">
+        <img src="imagens/paisagem-g.png" alt="Imagem Flexível">
+    </picture>
+</body>
+</html>

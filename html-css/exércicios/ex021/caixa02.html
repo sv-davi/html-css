@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            background-color: gray;
+        }
+
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav {
+            background-color: rgb(71, 71, 71);
+            padding: 10px;
+            box-shadow: 2px 2px 5px rgba(0,0,0,.5);
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+            color: black;
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+            box-shadow: 2px 2px 5px rgba(0,0,0,.5);
+        }
+
+        article {
+            background-color: lightgray;
+            padding-top: 10px;
+        }
+
+        article > aside {
+            background-color: lightslategrey;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assunto">
+            <p>Esporte Politica Tecnologia
+
+            </p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticia sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed veritatis voluptas aliquid voluptate molestias? Autem vitae assumenda facere nesciunt maiores enim ea dicta similique tempora, explicabo cum veniam asperiores voluptatem!</p>
+                <aside>
+                    <p>Artigo do José da Silva</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido pelo Curso Em Vídeo
+        </p>
+    </footer>
+</body>
+</html>
