@@ -1,3 +1,8 @@
 @charset "UTF-8";
 
-/* Configurações Modo Retrato (aparelho deitado) */
+/* Configurações Modo Portrait (aparelho em pé) */
+
+body {
+    background-image: url(../imagens/cev-portrait.jpg);
+    background-position: center center;
+}
