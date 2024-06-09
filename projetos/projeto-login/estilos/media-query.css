@@ -9,12 +9,13 @@ Desktops e Telas Grandes: 1025px até 1200px;
 TV e Telas Extragrandes: 1201px e mais */
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
-    body {
+    body { /* Tablet */
         background-image: linear-gradient(to top, var(--cor01), var(--cor02));
     }
 
     section#login {
-        width: 90vw;
+        width: 80vw;
+        height: 280px;
     }
 
     section#login > div#imagem {
@@ -25,7 +26,7 @@ TV e Telas Extragrandes: 1201px e mais */
 
     section#login > div#formulario {
         float: right;
-        width: 65%;
+        width: 70%;
     }
 
     div#formulario > p {
@@ -34,16 +35,17 @@ TV e Telas Extragrandes: 1201px e mais */
 }
 
 @media screen and (min-width: 992px) {
-    body {
+    body { /* Desktops e TVs */
         background-image: linear-gradient(to top, var(--cor01), var(--cor02));
     }
 
     section#login {
-        width: 950px;
+        width: 930px;
+        height: 350px;
     }
 
     section#login > div#imagem {
-        float: left;
+        float: right;
         width: 50%;
         height: 100%;
     }
@@ -55,7 +57,10 @@ TV e Telas Extragrandes: 1201px e mais */
 
     div#formulario > p {
         font-size: 1.2em;
+        margin: 20px 0px;
+    }
+
+    div.campo > input {
+        transform: translateY(-13px);
     }
 }
-    
-
